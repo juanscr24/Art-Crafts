@@ -1,0 +1,326 @@
+* {
+    margin:0;
+    padding:0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+header h2 {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+header a {
+  text-decoration:none;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  margin: 20px;
+}
+ 
+header button {
+  width: 120px;
+  height: 35px;
+}
+
+main .menor {
+  margin-left: 30px;
+}
+
+main .contenedor-principal img {
+  width: 500px;
+  margin-right: 30px;
+}
+
+main .foto-texto h2 {
+  font-size: 40px;
+}
+
+main h1 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+#button {
+  background: #042940;
+  color: white;
+}
+
+main button {
+  width: 150px;
+  height: 35px;
+  margin-top: 10px;
+  background:rgba(white, white, white, .5);
+}
+
+.foto-texto {
+  margin-top: 200px;
+  background: #EEEBE6;
+}
+
+.foto-texto img {
+  width: 500px;
+  margin: auto;
+}
+
+.foto-texto h2 {
+  margin-bottom: 30px;
+}
+
+.foto-texto h3 {
+  font-weight: 300;
+  margin-top: 70px;
+}
+
+.foto-texto p {
+  width: 500px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+.actividades img {
+  width: 400px;
+}
+
+.actividades {
+  margin-left: 50px;
+  margin-top: 70px;
+}
+
+.actividades .tres {
+  text-align: center;
+  margin: auto;
+  font-weight: 300;
+}
+
+.actividades .dos {
+  text-align: center;
+  margin: auto;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.acti {
+  width: 500px;
+}
+
+.acti h3 {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.acti button {
+  border-color: gray;
+  color: grey;
+  margin-top: 20px;
+  height: 50px;
+  width: 200px;
+}
+
+main .blue { 
+  background: #042940;
+  color: white;
+}
+
+main .blue h4 {
+  font-weight: 300;
+}
+
+main .blue .actividad .foto img {
+  width: 400px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+}
+
+main form {
+  margin-top: 10px;
+}
+
+main .blue p {
+  margin-top: -10px;
+}
+
+.schedule h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+#pottery {
+  color:rgb(207, 118, 118);
+}
+
+#painting {
+  color: #042940;
+}
+
+#knitting {
+  color: rgb(225, 228, 58);
+}
+
+.horarios .work {
+  margin-left: 200px;
+  font-size: 25px;
+}
+
+.horarios {
+  font-weight: 800;
+}
+
+/* FIVE STAR  */
+
+label{ color:grey;}
+
+input[type = "radio"]{ display:none;}
+
+label:hover{color:orange;}
+
+form {
+  width: 250px;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+/* FIVE STAR  */
+
+.member img {
+  border-radius: 50%;
+  width: 80px;
+  margin: 20px auto;
+}
+
+.member h4 {
+  margin: 20px auto;
+}
+
+.member h3 {
+  font-weight: 300;
+  margin-top: 80px;
+}
+
+.member {
+  background: #EEEBE6 ;
+}
+
+.member form {
+  margin-bottom: 40px;
+}
+
+footer form input {
+  margin: 4px;
+}
+
+.contact h2 {
+  margin-bottom: 40px;
+}
+
+.contact h3 {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+footer {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+footer form .submit {
+  width: 150px;
+  background: #042940;
+  margin-top: 10px;
+}
+
+footer .redes {
+  background: #1e2e38;
+  padding: 60px 0px;
+}
+
+footer .redes .contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+footer .redes .facebook:hover {
+  opacity: 0.5;
+}
+
+footer .redes .twitter:hover {
+  opacity: 0.5;
+}
+
+footer .redes .instagram:hover {
+  opacity: 0.5;
+}
+
+footer .redes-sociales {
+  margin-right: 30px;
+}
+
+footer .redes-sociales a {
+  color: white;
+  margin: 0px 5px;
+}
+
+footer .redes {
+  margin-top: 140px;
+}
+
+footer .white {
+  height: 50px;
+  background: white;
+}
+
+.redes h2 {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.redes .logo {
+  color: white;
+  align-items: center;
+}
+
+.redes .logo a {
+  color: white;
+  width: 20px;
+  align-items: center;
+  
+}

@@ -1,0 +1,310 @@
+header .contenedor {
+    width: 90%;
+    height: 70px;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+}
+
+header .contenedor .logo {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    align-items: center; 
+}
+
+.contenedor .menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*main*/
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+main .contenedor-principal {
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+main .foto-texto {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+main .actividades .actividad { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+main .blue .actividad { 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.horarios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    margin: 50px 100px;
+  }
+
+  .member {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin:auto;
+  }
+
+  .member img {
+    margin: auto;
+  }
+
+  .member form{
+    margin: auto;
+  }
+
+  footer .contact {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  footer form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    text-align: center;
+    justify-content: center;
+    width: 400px;
+  }
+
+  footer .redes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .redes .logo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+  }
+
+  @media screen and (max-width: 800px) {
+    .actividades {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .actividades .actividad {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+    }
+
+   img {
+        margin: auto; 
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+  }
+
+  @media screen and (max-width: 500px) {
+    header {
+        font-size: 12px;
+        margin: auto;
+    }
+
+    .logo h2 {
+        font-size: 15px;
+    }
+
+    .contenedor button {
+        width: 60px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    main .menor h1 {
+        font-size: 25px;
+    }
+
+    main .menor p {
+        font-size: 12px;
+    }
+
+    main .menor button {
+        width: 60px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    main .contenedor-principal .imagen {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    main .contenedor-principal {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    main .foto-texto {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        margin: 10px auto;
+    }
+
+    main .foto-texto #about {
+        font-size: 15px;
+    }
+
+    .foto-texto #creative {
+        font-size: 20px;
+    }
+
+    main .foto-texto img {
+        width: 300px;
+    }
+    
+    main .foto-texto p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    main .foto img {
+        width: 300px;
+        margin: auto;
+        display: flex; 
+    }
+
+    .acti p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    main .acti h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    main .actividades .tres {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    main .actividades .dos {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #cocina {
+        width: 300px;
+    }
+
+    .blue .acti h4 {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .submit form {
+        margin: 20px auto;
+    }
+
+
+    main .schedule h3 {
+        font-size: 20px ;
+    }
+
+
+    main .hora p {
+        font-size: 12px ;
+    }
+
+
+    #painting {
+        font-size: 15px;
+    }
+
+    #pottery {
+        font-size: 15px;
+    }
+
+    #knitting {
+        font-size: 15px;
+    }
+
+    main .foto-texto p {
+        width: 300px;
+    }
+
+    .horarios {
+        flex-direction: column;
+        align-items: center;
+      }
+
+    main .horarios .work {
+        margin-left: 0;
+        margin-top: 5px;
+      }
+
+    }
+
+    
+
+
+  
+    
+    
